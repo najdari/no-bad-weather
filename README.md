@@ -8,6 +8,7 @@ There are two public APIs that this application uses to give user the recommenda
 
 **1. [Geoapify](https://www.geoapify.com/)**
     To search locations and fetch associated lat and long for weather API.
+    
 **2. [YR](https://developer.yr.no/doc/GettingStarted/)**
     Fetch weather data of an input location.
 
@@ -20,7 +21,9 @@ First, you need Visit [Geoapify](https://www.geoapify.com/) and sign up to obtai
 
 The application and one of the test cases requires two environment variables set to function correctly:
 
+
 GEOAPIFY_API_KEY=<api key generated on Geoapify>
+
 YR_API_USER_AGENT=<set a user agent value as described [here](https://developer.yr.no/doc/TermsOfService/)>
 
 Then you can run:
